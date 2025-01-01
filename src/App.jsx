@@ -18,7 +18,7 @@ const App = () => {
       setError(null);
       // Replace with your actual API call here
       const response = await fetch(
-        `https://api-rcchecker.vercel.app//rc-details?vehicleno=${vehicleNo}`
+        `https://api-rcchecker-gh3t.vercel.app/rc-details?vehicleno=${vehicleNo}`
       );
 
       if (!response.ok) {
